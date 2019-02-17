@@ -1,0 +1,8 @@
+.config/nvim/plugged
+.config/pulse
+
+.local/*
+!.local/share/applications/
+
+.config/mpd/*
+!.config/mpd.conf
