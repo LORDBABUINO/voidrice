@@ -71,9 +71,6 @@ set mouse=a
 
 map <CR><CR> o<Esc>
 
-"Setup tabs
-	execute 'so '.fnameescape(vim_path . 'tabs.vim')
-
 "Make copy/paste from clipboard by pressing y or p
 	set clipboard=unnamedplus
 
@@ -91,3 +88,9 @@ map <CR><CR> o<Esc>
 
 "Disable search highlight
 	set nohlsearch
+
+"Setup tabs
+	execute 'so '.fnameescape(vim_path . 'tabs.vim')
+
+"Setup snipets
+	execute 'so '.fnameescape(vim_path . 'snipets.vim')
