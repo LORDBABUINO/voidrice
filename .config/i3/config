@@ -59,7 +59,7 @@ exec_always --no-startup-id mpdupdate
 # Podboat automatic queue and download
 exec_always --no-startup-id podentr
 # Run compton on startup
-exec --no-startup-id "compton -CG --backend glx --vsync opengl --glx-no-stencil"
+#exec --no-startup-id "compton -CG --backend glx --vsync opengl --glx-no-stencil"
 
 # Set Xresources colors:
 set_from_resource $darkblack	color0  #000000
