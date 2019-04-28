@@ -17,6 +17,9 @@ label=📰
 interval=once
 signal=6
 
+#[iplocate]
+#interval=30
+
 [pacpackages]
 label=📦
 interval=once
@@ -27,7 +30,7 @@ interval=20
 signal=7
 
 [weather]
-interval=3600
+interval=18000
 signal=5
 
 [mailbox]

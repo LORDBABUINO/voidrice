@@ -5,15 +5,14 @@ These are my dotfiles! The name of the repo, "voidrice", came from the fact they
 ## Programs whose configs can be found here
 
 + i3 (i3-gaps)
-+ Xresourses info used by [my st build](https://github.com/lukesmithxyz/st) as a terminal
++ ~~Xresourses/Xdefaults settings~~ Now moved to [my terminal (st) build](https://github.com/lukesmithxyz/st) which uses them
 + vim
 + bash
-+ ranger (see full documentation [here](.config/ranger/luke_ranger_readme.md))
++ vifm
 + ~~mutt/msmtp/offlineimap~~ Now moved to [LukeSmithxyz/mutt-wizard](https://github.com/LukeSmithxyz/mutt-wizard)
 + calcurse
 + ncmpcpp and mpd (my main music player)
 + mpv
-+ neofetch
 + And many little scripts I use filed in the `~/.scripts/` directory
 
 ## More documentation
@@ -30,8 +29,8 @@ The command `getkeys` will also show basic key binds for different programs.
 
 ## Dynamic Configuration Files
 
-Store your favorite or high-traffic directories in `~/.bmdirs` or your most
-important config files in `~/.bmfiles` with keyboard shortcuts. When you add
+Store your favorite or high-traffic directories in `~/.config/bmdirs` or your most
+important config files in `~/.config/bmfiles` with keyboard shortcuts. When you add
 things to theses files my vimrc will automatically run `shortcuts` which will
 dynamically generate shortcuts for these in bash, ranger and optionally
 qutebrowser and fish.
