@@ -11,6 +11,8 @@ Plug 'tpope/vim-commentary'
 Plug 'leafgarland/typescript-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'mattn/emmet-vim'
+Plug 'burner/vim-svelte'
 call plug#end()
 
 set bg=light
@@ -97,3 +99,8 @@ map <CR><CR> o<Esc>
 
 "Setup snipets
 	execute 'so '.fnameescape(vim_path . 'snipets.vim')
+
+"Setup emmet snipets html and css
+	let g:user_emmet_install_global = 0
+	autocmd FileType html,css,svelte EmmetInstall
+
