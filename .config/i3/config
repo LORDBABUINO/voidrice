@@ -306,10 +306,10 @@ bindsym $mod+Shift+Right 	move right
 # #---Media Keys---# #
 
 # Volume keys
-bindsym $mod+plus		exec --no-startup-id lmc up 5
-bindsym $mod+Shift+plus		exec --no-startup-id lmc up 15
-bindsym $mod+minus 		exec --no-startup-id lmc down 5
-bindsym $mod+Shift+minus	exec --no-startup-id lmc down 15
+bindsym $mod+plus		exec --no-startup-id mpc volume +5
+bindsym $mod+Shift+plus		exec --no-startup-id mpc volume +15
+bindsym $mod+minus 		exec --no-startup-id mpc volume -5
+bindsym $mod+Shift+minus	exec --no-startup-id mpc volume -15
 bindsym $mod+less 		exec --no-startup-id lmc prev
 bindsym $mod+Shift+less		exec --no-startup-id lmc replay
 bindsym $mod+greater		exec --no-startup-id lmc next
